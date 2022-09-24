@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: .7em;
+    overflow: hidden;
+}
+
+/* a {
+    color: #333;
+    text-decoration: none;
+} */
+
+h1,
+h2,
+h3 {}
+
+p {
+    margin: 10px 0;
+}
+
+/* Navbar */
+#navbar {
+    background: rgb(0, 0, 0);
+    color: #fff;
+    overflow: auto;
+}
+
+/* logo */
+#logo {
+    width: 120px;
+    height: 120px;
+    margin-top: 4%;
+    margin-left: 5%;
+
+}
+
+li:nth-child(2) {
+    margin-left: 48%;
+}
+
+#navar a {
+    color: #fff;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 30px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background: rgb(167, 85, 85);
+}
+
+#showcase {
+    /* background: url(./images/optin\ 5.jpg) center center/cover; */
+    height: 600px;
+}
+
+.text-primary {
+    color: #333;
+}
