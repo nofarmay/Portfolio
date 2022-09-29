@@ -4,31 +4,229 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nofar Maymon</title>
+
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="access/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Nofar Maymon</title>
   </head>
   <body>
-    <header>
-      <nav id="navbar">
-        <ul>
-          <li><img id="logo" src="/access/logo.jpg" /></li>
-          <li><a href="#"></a>about</li>
-          <li><a href="#"></a>skills</li>
-          <li><a href="#"></a>projects</li>
-          <li><a href="#"></a>contact</li>
-        </ul>
-      </nav>
-      <div id="showcase">
-        <div class="container">
-          <h1>Hi I'm Nofar</h1>
+    <!-- font family
+"poppins-semibold", sans-serif; -->
+    <!-- navbar -->
+    <nav id="navbar">
+      <img id="logo" src="./access/logo.jpg" />
+      <ul>
+        <li><a href="#Home"></a>Home</li>
+        <li><a href="#about"></a>About</li>
+        <li><a href="#skills"></a>Skills</li>
+        <li><a href="#projects"></a>Projects</li>
+        <li><a href="#contact"></a>Contact</li>
+      </ul>
+    </nav>
+    <!-- /* home section */ -->
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ea
-            nihil similique nam tempora. Exercitationem!
-          </p>
+    <section class="home" id="home">
+      <div class="home content">
+        <h2><span class="text-primary">Hi </span>I'm Nofar</h2>
+        <br />
+        <br />
+        <h3><span class="text-primary1">I'm a </span>|Software developer|</h3>
+      </div>
+    </section>
+
+    <!-- /* about section */ -->
+    <section class="about" id="about">
+      <h4><span class="text-primary">About</span> Me</h4>
+      <div class="P-container">
+        <div class="first-p">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, exercitationem rem doloremque iusto aliquam reiciendis odio expedita temporibus voluptatibus, facere, veritatis consequatur commodi at! Maxime, mollitia. Iste modi sed provident perferendis temporibus suscipit asperiores voluptatum adipisci impedit. Corporis, accusantium nihil voluptate facere sint molestiae reprehenderit aliquam doloribus? Fuga sit illo vel accusantium harum. Minus saepe quas consectetur obcaecati pariatur illo at dolor nulla. Natus obcaecati nesciunt facere fugit magnam! Obcaecati, eveniet. Minima obcaecati sint dolorem quia amet corporis hic optio!.
+          illo at dolor nulla. Natus obcaecati nesciunt facere fugit magnam! Obcaecati, eveniet. Minima obcaecati sint dolorem quia amet corporis hic optio!.
+          illo at dolor nulla. Natus obcaecati nesciunt facere fugit magnam! Obcaecati, eveniet. Minima obcaecati sint dolorem quia amet corporis hic optio!.
+          illo at dolor nulla. Natus obcaecati nesciunt facere fugit magnam! Obcaecati, eveniet. Minima obcaecati sint dolorem quia amet corporis hic optio!.
+       
+      </div>
+    </section>
+
+    <!-- /* Skills section */ -->
+    <section class="Skills" id="Skills">
+      <!-- skills bar -->
+      <div class="container">
+        <h3><span class="text-primary">My </span>Skills</h3>
+       <div class="my-skills-text"> <b>My skills & experience.</b> </div>
+        <div class="skills">
+          <div class="skills-label">
+            <h1>Html</h1>
+            <span class="percent">87%</span>
+            <div style="clear:both"></div>
+          </div>
+          <div class="bar">
+            <div class="progress" style="width: 87%"></div>
+          </div>
+        </div>
+        <div class="skills">
+          <div class="skills-label">
+            <h1>Css</h1>
+            <span class="percent">70%</span>
+            <div style="clear:both"></div>
+          </div>
+          <div class="bar">
+            <div class="progress" style="width: 70%"></div>
+          </div>
+        </div>
+        <div class="skills">
+          <div class="skills-label">
+            <h1>JavaScript</h1>
+            <span class="percent">60%</span>
+            <div style="clear:both"></div>
+          </div>
+          <div class="bar">
+            <div class="progress" style="width: 60%"></div>
+          </div>
+        </div>
+        <div class="skills">
+          <div class="skills-label">
+            <h1>React</h1>
+            <span class="percent">15%</span>
+            <div style="clear:both"></div>
+          </div>
+          <div class="bar">
+            <div class="progress" style="width: 15%"></div>
+          </div>
         </div>
       </div>
-    </header>
+    </section>
+
+    <!-- /* Projects section */ -->
+    
+
+    <section id="projects" class="projects section">
+      <h3><span class="text-primary">My </span>Projects</h3>
+      <div class="card-container">
+        <div class="card project1">
+          <a href="https://dropbox-error-page.netlify.app" target="_blank">
+            <div class="proj-img-wrapper">
+              <img
+                class="project-img"
+                src="./images/dropbox1.JPG"
+                alt="dropbox"
+              />
+            </div>
+
+            <div class="card-text-container">
+              <h4><b>Error Pages</b></h4>
+              <p>Dropbox</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card project2">
+          <a href="https://pixar-error-page.netlify.app" target="_blank">
+            <div class="proj-img-wrapper">
+              <img class="project-img" src="./images/pixar1.JPG" alt="pixar" />
+            </div>
+          
+            <div class="card-text-container">
+              <h4><b>Error Pages</b></h4>
+              <p>Pixar</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card project2">
+          <a href="https://tesla-mock-web.netlify.app" target="_blank">
+            <div class="proj-img-wrapper">
+              <img class="project-img" src="./images/tesla.JPG" alt="tesla" />
+            </div>
+        
+            <div class="card-text-container">
+              <h4><b>Mok Website</b></h4>
+              <p>Tesla</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <!-- /* Contact section */ -->
+
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <!-- my contact details -->
+        <div class="contact content">
+          <div class="column left">
+            <div class="text">Let's talk</div>
+            <p><div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="sub-title">Nofar Maymon</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info">
+                  <div class="head">Address</div>
+                  <div class="sub-title">Netivot</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">nofarmaymon123@gmail.com</div></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- message box -->
+          <div class="column right">
+            <div class="text">Message me</div>
+            <form action="#">
+              <div class="fields">
+                <div class="field name">
+                  <input type="text" placeholder="Name" required />
+                </div>
+                <div class="field email">
+                  <input type="email" placeholder="Email" required />
+                </div>
+              </div>
+              <div class="field">
+                <input type="text" placeholder="Subject" required />
+              </div>
+              <div class="field textarea">
+                <textarea
+                  cols="30"
+                  rows="10"
+                  placeholder="Message.."
+                  required
+                ></textarea>
+              </div>
+              <div class="button-area">
+                <button type="submit">Send message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
+  <footer>
+  <div class="sicons">
+    <a href="https://www.instagram.com/nofarmaimon/"><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" /></a>
+    <a href="https://www.facebook.com/nofar.maimon.9/"><img src="https://img.icons8.com/ios-glyphs/30/000000/facebook--v1.png" /></a>
+    <a href="https://www.instagram.com/nofarmaimon/"><img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" /></a>
+    <a href="https://github.com/nofarmay"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" /></a>
+  </div>
+</footer>
 </html>
+
